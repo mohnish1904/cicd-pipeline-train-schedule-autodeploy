@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment{
         //docker hub image
-        DOCKER_IMAGE_NAME = "ps1231711/train-schedule"
+        DOCKER_IMAGE_NAME = "mohnish19/train-schedule"
     }
     stages {
         stage('Build') {
